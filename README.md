@@ -1,6 +1,10 @@
-# DEPRECATED
+# Maintenance Fork of [Asottile's Setuptools Golang Library](https://github.com/asottile-archive/setuptools-golang)
 
-it turns out multiple go shared objects in a single process is not supported
+All credit for this library goes to the original author [Anthony Sottile](https://github.com/asottile). This fork is for CVE and minor bug fixes, but it has the following major limitation.
+
+# WARNING 
+
+It turns out multiple go shared objects in a single process is not supported
 
 it likely broke in [go 1.21] and there is no intention to fix it :(
 
